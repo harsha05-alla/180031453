@@ -44,7 +44,7 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 
-- script: python "sum.py"
+- script: python "build.py"
 
 
 
@@ -57,7 +57,7 @@ steps:
     scriptSource: 'inline'
 
 
-    script: build.py
+    script: |
 
 
       print('Hello world 1')
