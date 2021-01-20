@@ -57,7 +57,7 @@ steps:
     scriptSource: 'inline'
 
 
-    script: |
+    script: build.py|
 
 
       print('Hello world 1')
